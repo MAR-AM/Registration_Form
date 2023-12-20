@@ -1,0 +1,78 @@
+<html>
+<head>
+    <style>
+        fieldset{
+            border: solid;
+            border-radius: 5px;
+        }
+        label {
+            display: inline-block;min-width: 140px;
+        }
+        form{
+            line-height: 7mm;
+        }
+        
+    </style>
+</head>
+<body>
+    <form >
+    <fieldset>
+        <legend><b> coordonnees </b></legend>
+        <label for='nom' ><b>Nom : </b></label>
+        <input  type="text" name="nom" id="nom" maxlength="20" placeholder="Votre nom" required><br>
+        <label for='prenom'><b>Prénom: </b></label>
+        <input style="width: 300px;" type="text" name="prenom" id="prenom" maxlength="20" placeholder="Votre prénom" required><br>
+        <label for='age'><b>Date de naissance :</b></label>
+        <input type="date" name="age" id="age" maxlength="20" placeholder="" required><br>
+        <label for="mail"><b>Mail : </b></label>
+        <input style="width: 300px;" type="text" name="" id="" placeholder="votre mail"><br>
+        <label for="mail"><b>Votre site  : </b></label>
+        <input type="text" name="" id=""><br>
+        <label for="mail"><b>Code  : </b></label>
+        <input style="width: 300px;" type="text" name="" id=""><br>
+         
+    
+        <b>genre :</b> 
+        <input type="radio" id="male" name="sexe" value="Masculin">
+        <label for="male">Homme</label>
+        <input type="radio" id="female" name="sexe" value="Féminin">
+        <label for="female">Femme</label><br>
+        
+        <b>Pays :</b>
+        <select  id="smia" name="smia" style="margin-left: 100px; width: 150px;" placeholder="Votre Pays">
+            <option value="" disabled selected>Votre pays </option>
+            <option value="maroc" >Maroc</option>
+            <option value="france">Japan</option>
+            <option value="belguim">Canada</option>
+            <option value="espagn">espagn</option>
+        </select>
+
+     </fieldset> 
+    </form>
+    <fieldset>
+        <legend><b> Vos gouts  </b></legend>
+       <form >
+        <input type="checkbox" name="" id="">
+        <label for=""><b>Tarte aux fruit a la creme d'amande</b></label><br>
+        <input type="checkbox" name="" id="">
+        <label for=""><b>Tarte aux prunes</b></label><br>
+        <input type="checkbox" name="" id="">
+        <label for=""><b>Tarte rustique aux mirabelles de Lorraine, noisettes et miel</b></label><br>
+        <textarea name="" id="" cols="30" rows="10">Decriver vos gouts en detail </textarea>
+        <label for="texterea"></label>
+        
+    
+        </select>
+       </form>
+    </fieldset> 
+</form>
+<fieldset>
+    <legend><b> Envoyez nous votre photo  </b></legend>
+   <form>
+    <input type="file" name="" id=""><br><br>
+    <input type="submit" name="" id="" value="Effacer ">
+    <input type="submit" name="" id="" value=" Envoyer ">
+</fieldset> 
+</form>
+</body>
+</html>
